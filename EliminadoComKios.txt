@@ -1,0 +1,31 @@
+    1  vim .bash_profile 
+    2  su -
+    3  systemctl reboor
+    4  systemctl reboot
+    5  empathy
+    6  whereis empathy
+    7  rpm --help
+    8  rpm --info empathy
+    9  clear
+   10  rmp -p empathy
+   11  whereis empathy
+   12  rpm -qf /usr/bin/empathy
+   13  yum remove empathy.x86_64 
+   14  sudo yum remove empathy.x86_64 
+   15  su -
+   16  history
+   17  su -
+   18  gnome-session-inhibit logout
+   19  gnome-session-inhibit --inhibit logout
+   20  gnome-session-inhibit --inhibit switch-user
+   21  gnome-session-inhibit --inhibit suspend
+   22  whereis  Red_
+   23  whereis Red_Hat_Enterprise_Linux-Release_Notes-7-en-US-7
+   24  cd /usr/share/doc/
+   25  ls
+   26  rpm -qa | grep docs
+   27  yum remove gnome-user-docs-3.28.2-1.el7.noarch
+   28  su -
+   29  rpm -qa | grep docs
+   30  history > EliminadoComKiosk.text
+   31  history > /home/kiosk/Documents/EliminadoComKios.txt
