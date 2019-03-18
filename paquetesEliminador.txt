@@ -1,0 +1,74 @@
+    1  yum install -y subcription-manager
+    2  subcription-manager register --username rhn-support-mip --password redhad2018 --auto-attch
+    3  subscription-manager register --username rhn-support-mip --password redhad2018 --auto-attch
+    4  subscription-manager register --username rhn-support-mip --password redhad2018 --auto-attach
+    5  ping www.google.com
+    6  subscription-manager register --username rhn-support-mip --password redhad2018 --auto-attach
+    7  clear
+    8  yum repolist
+    9  cd /home/user/
+   10  ls
+   11  cd Downloads/
+   12  ls
+   13  clear
+   14  yum localinstall -y google-chrome-stable_current_x86_64.rpm 
+   15  subscription-manager repos --enable=rhel-7-server-optional-rpms 
+   16  yum localinstall -y google-chrome-stable_current_x86_64.rpm 
+   17  exit
+   18  usedel --help
+   19  userdel --help
+   20  userdel -r user 
+   21  ls
+   22  cd /
+   23  ls
+   24  cd home/
+   25  ls
+   26  clear
+   27  useradd kiosk 
+   28  passwd kiosk
+   29  clear
+   30  cd /
+   31  ls
+   32  cd home/
+   33  ls
+   34  cd kiosk/
+   35  vim /etc/gdm/
+   36  vim /etc/gdm/custom.conf 
+   37  cd /usr/share/xsessions/
+   38  ls
+   39  cp gnome.desktop kiosk.desktop
+   40  vim kiosk.desktop 
+   41  cd /var/lib/AccountsService/
+   42  ls
+   43  cd users/
+   44  ls
+   45  clear
+   46  vim kiosk 
+   47  rpm -qf /usr/bin/empathy
+   48  yum remove empathy.x86_64 
+   49  history
+   50  clear
+   51  exit
+   52  whereis fire-fox
+   53  whereis firefox
+   54  rpm -qf  /usr/bin/firefox
+   55  yum remove firefox.x86_64 
+   56  gnome-screenshot 
+   57  yum remove gnome-screenshot.x86_64 `
+   58  yum remove gnome-screenshot.x86_64
+   59  yum remove gnome-boxes
+   60  yum remove gnome-calculator
+   61  yum remove gnome-clocks
+   62  gnome-contacts
+   63  yum remove gnome-contacts
+   64  yum remove gnome-weather
+   65  clear
+   66  gnome-abrt 
+   67  yum remove gnome-abrt
+   68  systemctl stop abrtd
+   69  systemctl desable abrtd
+   70  systemctl disable abrtd
+   71  rebbot
+   72  reboot
+   73  hystory > /home/kiosk/Documents/paquetesEliminador.txt
+   74  history > /home/kiosk/Documents/paquetesEliminador.txt
