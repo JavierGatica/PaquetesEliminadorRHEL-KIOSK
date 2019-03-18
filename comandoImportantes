@@ -1,0 +1,5 @@
+rpm -qa | grep  = para buscar un archivo 
+rpm -qa | wc -l = contar los archivos total 
+rpm -e --force @nombre = forzar para eliminar un paquete
+whereis nombre = buscar la ruta de un archivo
+rmp -qf para descubrir el archivo despuies de optener la ruta
